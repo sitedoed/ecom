@@ -17,12 +17,8 @@
 </template>
 
 <script>
-import Nav from '~/components/Nav.vue';
-import HomeCarousel from '../components/HomeCarousel.vue';
-import Footer from '../components/Footer.vue';
 export default {
-    components: { Nav, HomeCarousel, Footer },
-    async created() {
+  async created() {
     this.sale_items = await this.$content("products")
       .where({ onSale: true })
       .fetch();
@@ -37,6 +33,4 @@ export default {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>
