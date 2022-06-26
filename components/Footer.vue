@@ -14,7 +14,6 @@
         class="mr-2"
         v-for="(b, i) in sm"
         :key="`sm${i}`"
-        fab
         depressed
       >
         <v-icon>{{ b.icon }}</v-icon>
