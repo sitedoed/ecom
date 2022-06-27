@@ -2,28 +2,22 @@
 
 **A VueJs Project 👍**
 
+![](https://github.com/sitedoed/ecom/blob/master/preview-ecommerce-netlify-app.png?raw=true)
+
 Visit the demo: [Preview e-Commerce](https://preview-ecommerce.netlify.app/)
 
 ## Instructions
-clone the repo: git clone https://github.com/sitedoed/ecom.git
+- clone the repo: git clone https://github.com/sitedoed/ecom.git
 
-move to the <project_folder>
+- move to the <project_folder>
 
-In the project directory
+- In the project directory
 
-type: npm install
+- type: npm install
 
-npm run dev
+- npm run dev
 
-Optionally: npm run build
-
-
-## Stack
-
-- [NuxtJS](https://nuxtjs.org)
-- [Vuetify JS](https://vuetify.com)
-- [Content ](https://content.nuxtjs.org/)
-- [Pexels](https://pexels.com)
+- Optionally: npm run build
 
 ---
 
