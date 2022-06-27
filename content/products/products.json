@@ -6,7 +6,7 @@
     "tags": ["SmartPhone", "By: Torsten Dettlaff"],
     "image": "https://images.pexels.com/photos/193004/pexels-photo-193004.jpeg?cs=srgb&dl=pexels-torsten-dettlaff-193004.jpg&fm=jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
-    "price": 20000,
+    "price": 2000,
     "salePrice": null,
     "ratings": 4.0
   },
@@ -18,7 +18,7 @@
     "image": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
     "price": 3500,
-    "salePrice": 3000,
+    "salePrice": 3500,
     "ratings": 4.5
   },
   {
@@ -28,8 +28,8 @@
     "tags": ["Ipad", "By: Josh Sorenson"],
     "image": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
-    "price": 10500,
-    "salePrice": 9000,
+    "price": 1500,
+    "salePrice": 1500,
     "ratings": 4.5
   },
   {
@@ -39,7 +39,7 @@
     "tags": ["Musical", "Keyboard"],
     "image": "https://images.pexels.com/photos/258965/pexels-photo-258965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
-    "price": 100500,
+    "price": 1500,
     "salePrice": null,
     "ratings": 4
   },
@@ -50,8 +50,8 @@
     "tags": ["Condenser", "Mic"],
     "image": "https://images.pexels.com/photos/6190821/pexels-photo-6190821.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
-    "price": 50500,
-    "salePrice": 40000,
+    "price": 500,
+    "salePrice": 500,
     "ratings": 3.5
   }
 ]
