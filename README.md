@@ -5,7 +5,7 @@
 Visit the demo: [Preview e-Commerce](https://preview-ecommerce.netlify.app/)
 
 ## Instructions
-clone the repo
+clone the repo: git clone https://github.com/sitedoed/ecom.git
 
 move to the <project_folder>
 
@@ -13,7 +13,7 @@ In the project directory
 
 type: npm install
 
-npm run serve
+npm run dev
 
 Optionally: npm run build
 
