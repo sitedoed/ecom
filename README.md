@@ -6,10 +6,15 @@ Visit the demo: [Preview e-Commerce](https://preview-ecommerce.netlify.app/)
 
 ## Instructions
 clone the repo
+
 move to the <project_folder>
+
 In the project directory
+
 type: npm install
+
 npm run serve
+
 Optionally: npm run build
 
 
