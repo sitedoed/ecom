@@ -1,8 +1,17 @@
-# FreeCommerce
+# Preview e-Commerce
 
-**Another eCommerce website 🙂**
+**A VueJs Project 👍**
 
-Live site can be found here : [FreeCommerce](https://freecommerce.behonbaker.com)
+Visit the demo: [Preview e-Commerce](https://preview-ecommerce.netlify.app/)
+
+## Instructions
+clone the repo
+move to the <project_folder>
+In the project directory
+type: npm install
+npm run serve
+Optionally: npm run build
+
 
 ## Stack
 
@@ -13,12 +22,7 @@ Live site can be found here : [FreeCommerce](https://freecommerce.behonbaker.com
 
 ---
 
-## Me?
-
-[Behon Baker](https://behonbaker.com)
-
-<img src="https://behonbaker.com/behonbaker.png" width="200"/>
-
+### Developed by Vieira, Edson (sitedoed)
 
 ### Inspired by Behon Baker's Tutorial,
 Available in: [https://www.youtube.com/watch?v=NCAbUAI2V_I](https://www.youtube.com/watch?v=NCAbUAI2V_I)
