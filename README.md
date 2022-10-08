@@ -4,7 +4,7 @@
 
 ![](https://github.com/sitedoed/ecom/blob/master/preview-ecommerce-netlify-app.png?raw=true)
 
-Visit the demo: [Preview e-Commerce](https://preview-ecommerce.netlify.app/)
+Visit the demo: [VueJS e-Commerce](https://vuejsecommerce.netlify.app/)
 
 ## Instructions
 - clone the repo: git clone https://github.com/sitedoed/ecom.git
