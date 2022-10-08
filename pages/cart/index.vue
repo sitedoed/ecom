@@ -4,7 +4,7 @@
     <br />
     <div class="text-center" v-if="$store.state.cart.cart.length == 0">
       <v-img class="d-block mx-auto" src="/emptycart.svg" width="500"></v-img>
-      <p>No Items Just Yet</p>
+      <p>Carrinho de compras vazio</p>
     </div>
     <v-container>
       <div class="mb-3" v-if="$store.state.cart.cart.length > 0">
@@ -14,7 +14,7 @@
           min-width="150"
           min-height="45"
           color="primary"
-          >Checkout</v-btn
+          >Finalizar compra</v-btn
         >
       </div>
       <v-row>

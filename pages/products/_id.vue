@@ -45,7 +45,7 @@
             min-width="170"
             class="text-capitalize"
             color="primary"
-            >Add To Cart</v-btn
+            >Adicionar ao carrinho</v-btn
           >
         </v-col>
       </v-row>

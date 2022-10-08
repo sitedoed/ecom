@@ -12,7 +12,7 @@
       <v-toolbar-title
         @click="$router.push('/')"
         class="text-md-h5 font-weight-bold pointer"
-        >Preview e-Commerce</v-toolbar-title
+        >VueJS e-Commerce</v-toolbar-title
       >
       <v-spacer />
 
@@ -20,7 +20,7 @@
         <v-icon size="20">mdi-store-outline</v-icon>
       </v-btn>
 
-  
+
       <v-divider vertical class="mx-md-5 mx-2" />
       <v-btn @click="toggleTheme" icon>
         <v-icon size="20">mdi-brightness-7</v-icon>

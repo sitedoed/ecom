@@ -10,14 +10,14 @@
               outlined
               v-model="search"
               clearable
-              placeholder="Search"
+              placeholder="Procurar"
             ></v-text-field>
             <v-list
               v-if="$vuetify.breakpoint.mdAndUp"
               color="transparent"
               subheader
             >
-              <v-subheader>Categories</v-subheader>
+              <v-subheader>Categorias</v-subheader>
               <v-list-item
                 link
                 v-for="(c, i) in categories"

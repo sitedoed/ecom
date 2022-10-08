@@ -4,26 +4,26 @@
     <br />
     <div class="text-center" v-if="$store.state.cart.cart.length == 0">
       <v-img class="d-block mx-auto" src="/emptycart.svg" width="500"></v-img>
-      <p>No Items Just Yet</p>
+      <p>Carrinho de compras vazio</p>
     </div>
     <v-container v-else>
       <div class="mb-3" v-if="$store.state.cart.cart.length > 0">
         <v-btn nuxt to="/cart" min-width="150" min-height="45" depressed
-          >Back</v-btn
+          >Voltar</v-btn
         >
         <v-btn @click="proccess" min-width="150" min-height="45" color="primary"
-          >Complete</v-btn
+          >Finalizar</v-btn
         >
       </div>
       <v-form lazy-validation ref="form" class="mt-10">
-        <p class="font-weight-bold">Personal & Delivery</p>
+        <p class="font-weight-bold">Dados Pessoais</p>
         <v-row>
           <v-col cols="12" md="4">
             <v-text-field
               v-model="email"
               :rules="[rules.required, rules.email]"
               outlined
-              label="Email"
+              label="E-mail"
               type="email"
             ></v-text-field>
           </v-col>
@@ -32,7 +32,7 @@
               v-model="name"
               :rules="[rules.required]"
               outlined
-              label="Full Name"
+              label="Nome Completo"
               type="text"
             ></v-text-field>
           </v-col>
@@ -40,7 +40,7 @@
             <v-text-field
               v-model="phone"
               outlined
-              label="Phone"
+              label="Telefone"
               type="tel"
             ></v-text-field>
           </v-col>
@@ -49,7 +49,7 @@
               v-model="address"
               :rules="[rules.required]"
               outlined
-              label="Address"
+              label="Endereço"
               type="text"
             ></v-text-field>
           </v-col>
@@ -58,7 +58,7 @@
               v-model="city"
               :rules="[rules.required]"
               outlined
-              label="City"
+              label="Cidade"
               type="text"
             ></v-text-field>
           </v-col>
@@ -67,19 +67,19 @@
               v-model="country"
               :rules="[rules.required]"
               outlined
-              label="Country"
+              label="Estado"
               type="text"
             ></v-text-field>
           </v-col>
         </v-row>
-        <p class="font-weight-bold">Credit card</p>
+        <p class="font-weight-bold">Cartão de Crédito</p>
         <v-row>
           <v-col cols="12" md="12">
             <v-text-field
               v-model="cc"
               :rules="[rules.required]"
               outlined
-              label="Credit Card Number"
+              label="Número do Cartão de Crédito"
             ></v-text-field>
           </v-col>
           <v-col cols="12" md="6">
@@ -87,7 +87,7 @@
               v-model="expdate"
               :rules="[rules.required]"
               outlined
-              label="Exp date"
+              label="Data de Validade"
             ></v-text-field>
           </v-col>
           <v-col cols="12" md="6">
@@ -95,7 +95,7 @@
               v-model="cvv"
               :rules="[rules.required]"
               outlined
-              label="Security code/CVV"
+              label="Código de Segurança/CVV"
             ></v-text-field>
           </v-col>
         </v-row>

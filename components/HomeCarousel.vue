@@ -43,7 +43,7 @@
                   color="primary"
                   class="text-capitalize"
                   min-height="40"
-                  >Check It Out</v-btn
+                  >Saiba mais</v-btn
                 >
               </div>
             </v-col>

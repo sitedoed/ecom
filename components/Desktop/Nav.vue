@@ -12,7 +12,7 @@
       <v-toolbar-title
         @click="$router.push('/')"
         class="text-md-h5 font-weight-bold pointer"
-        >Preview e-Commerce</v-toolbar-title
+        >VueJS e-Commerce</v-toolbar-title
       >
       <v-spacer />
 
